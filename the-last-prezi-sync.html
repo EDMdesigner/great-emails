@@ -1,0 +1,833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+	
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Prezi</title>
+	
+	<!--[if gte mso 9]>
+	<xml>
+		<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+	
+	<style type="text/css">
+		
+		/* standard resets */
+		div, p, a, li, td {
+			-webkit-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.fade-slow{ 
+			transition: 0s !important; 
+		} 
+        .fade-slow:hover{ 
+			transition: 0s !important; opacity: 0.5 !important;
+		}
+		table td {
+			border-collapse: collapse;
+		}
+		.bg-rollover:hover {
+            background-color: #bbe8ff !important;
+        }
+		.ExternalClass {
+			width: 100%;
+		}
+		.ExternalClass * {
+			line-height: 110%
+		}
+		img {
+			-ms-interpolation-mode: bicubic;
+		}
+		table {
+			margin: 0 auto;
+		}
+		.footerlinks a {
+			color: #475262;
+			text-decoration: none;
+		} 
+		.footer-style a {
+			color: #475262 !important;
+			text-decoration: none !important;
+		}
+	
+		/* control text changed to links by phones */
+		@media only screen {
+			a[href^="tel"], a[href^="sms"] {
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+	
+		/* Yahoo and apple mail reset on desktop */
+		@media screen and (min-width: 600px) {
+			.wrapto640px {
+				width: 640px !important;
+			}
+			.wrapto600px {
+				width: 600px !important;
+			}
+			.wrapto768px {
+				width: 600px !important;
+			}
+			.block {
+				width: 300px !important;
+			}
+			.block400 {
+				width: 400px !important;
+			}
+			.block360 {
+				width: 360px !important;
+			}
+			.block350 {
+				width: 350px !important;
+			}
+			.block285 {
+				width: 285px !important;
+			}
+			.block250 {
+				width: 250px !important;
+			}
+			.block200 {
+				width: 200px !important;
+			}
+			.block400bottom {
+				width: 400px !important;
+			}
+			.block200top {
+				width: 200px !important;
+			}
+			.threecolumn {
+				width: 200px !important;
+				height: auto !important;
+			}
+			.threecolumn93px {
+				width: 93px !important;
+				height: auto !important;
+			}
+			.threecolumn277px {
+				width: 277px !important;
+				height: auto !important;
+			}
+			.threecolumn170px {
+				width: 170px !important;
+				height: auto !important;
+			}
+		}
+		
+		/* responsive rules */
+		@media only screen and (max-width: 600px), screen and (max-device-width: 600px) {
+			.wrapto100pc {
+				width: 100% !important;
+				height: auto !important;
+				max-width: 100% !important;
+				max-height: auto !important;
+			}
+			.wrapto90pc {
+				width: 90% !important;
+				height: auto !important;
+				max-width: 90% !important;
+				max-height: auto !important;
+			}
+			.wrapto80pc {
+				width: 80% !important;
+				height: auto !important;
+				max-width: 80% !important;
+				max-height: auto !important;
+			}
+			.wrapto70pc {
+				width: 70% !important;
+				height: auto !important;
+				max-width: 70% !important;
+				max-height: auto !important;
+			}
+			.wrapto50pc {
+				width:50% !important;
+				height: auto !important;
+				max-width: 50% !important;
+				max-height: auto !important;
+			}
+			.wrapto100pcpt20 {
+				width: 100% !important;
+				height: auto !important;
+				padding-top: 20px !important;
+			}
+			.wrapto640px {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.wrapto600px {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.wrapto768px {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.mobheight40 {
+				height:40px!important;
+			}
+			.block {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.block400 {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.block360 {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.block350 {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.block285 {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.block250 {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.block200 {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.flip {
+				width: 100% !important;
+				height: auto !important;
+				display: table !important;
+			}
+			.blocktop {
+				width: 100% !important;
+				height: auto !important;
+				display: table-header-group !important;
+			}
+			.blockmiddle {
+				width: 100% !important;
+				height: auto !important;
+				display: table-row-group !important;
+			}
+			.blockbottom {
+				width: 100% !important;
+				height: auto !important;
+				display: table-footer-group !important;
+			}
+			.block200top {
+				width: 100% !important;
+				height: auto !important;
+				display: table-header-group !important;
+			}
+			.block400bottom {
+				width: 100% !important;
+				height: auto !important;
+				display: table-footer-group !important;
+			}
+			.threecolumn {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.threecolumn93px {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.threecolumn277px {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.threecolumn170px {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.centertext {
+				text-align: center !important;
+			}
+			.heightauto {
+				height: auto !important;
+			}
+			.h10 {
+				height: 10px !important;
+			}
+			.h20 {
+				height: 20px !important;
+			}
+			.h30 {
+				height: 30px !important;
+			}
+			.w30 {
+				width: 30px !important;
+			}
+			.nomob {
+				display: none !important;
+				width: 0px !important;
+				height: 0px !important;
+			}
+			.wrapto100pcpt10 {
+				width: 100% !important;
+				height: auto !important;
+				padding-top: 10px !important;
+			}
+			.fontsize15 {
+				font-size: 15px !important;
+				line-height: 20px !important;
+			}
+			.fontsize16 {
+				font-size: 16px !important;
+				line-height: 21px !important;
+			}
+			.fontsize17 {
+				font-size: 17px !important;
+				line-height: 22px !important;
+			}
+			.titlefont {
+				font-size: 24px !important;
+				line-height: 30px !important;
+			}
+			.subtitlefont {
+				font-size: 14px !important;
+				line-height: 22px !important;
+			}
+			.paddingt10 {
+				padding-top:10px !important;
+			}
+			.paddingt0 {
+				padding-top:30px !important;
+			}
+			.paddinglr0 {
+				padding-left:0px !important;
+				padding-right:0px !important;
+			}
+			.paddinglr20 {
+				padding-left:20px !important;
+				padding-right:20px !important;
+			}
+			.paddinglr30 {
+				padding-left:30px !important;
+				padding-right:30px !important;
+			}
+			.paddinglr40 {
+				padding-left:40px !important;
+				padding-right:40px !important;
+			}
+			.blockswitch {
+				direction: ltr !important;
+				width: 100% !important;
+			}
+			.blockswitch2 {
+				display: table-footer-group !important;
+				width: 100% !important;
+			}
+			.blockswitch3 {
+				display: table-header-group !important;
+				width: 100% !important;
+			}
+			.bump {
+				display: block !important;
+			}
+			.showmob {
+				display: block !important;
+				max-height: none !important;
+				font-family: 'raleway-regular', Helvetica, Arial, sans-serif; 
+				font-size: 14px; 
+				line-height: 22px; 
+				padding-top: 0px; 
+				padding-bottom: 0px; 
+				text-align: left; 
+				color: rgba(92,104,124,0.56);
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+			.mobshow {
+				display: inline-block !important;
+				width:auto !important;
+				height:auto !important;
+				overflow:visible !important;
+				float:none !important;
+				visibility:visible !important;
+				border:none !important;
+				max-height: none !important;
+				font-family: 'raleway-regular', Helvetica, Arial, sans-serif !important; 
+				font-size: 14px !important; 
+				line-height: 22px !important; 
+				text-align: left !important; 
+				color: rgba(92,104,124,0.56) !important;
+			}
+		}
+		@media screen {
+			@font-face {
+				font-family: 'raleway-regular';
+				src: url('http://prezi-a.akamaihd.net/assets/common/fonts/raleway-regular.woff') format('woff');
+				font-weight: normal;
+				font-style: normal;
+			}
+		}
+		
+	</style>
+	
+	<!--[if mso]>
+	<style type="text/css">
+		span {
+			font-family: Helvetica, Arial, sans-serif !important;
+		}
+	</style>
+	<![endif]-->
+	
+</head>
+	
+<body bgcolor="#FFFFFF" leftmargin="0" rightmargin="0" topmargin="0" width="100%"><IMG SRC="https://click.prezi.com/t/jbH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=A9DDB6F1982BCE74FBAA1F8616051930119EDEA5A8796B89359CD2270FC20248" WIDTH="1" HEIGHT="1" STYLE="border:0px hidden transparent !important; display:none !important; overflow:hidden; max-height: 0;" ALT=""/>	
+	
+	<!---->
+	
+	<!-- Preheader -->
+	<div style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">A quick collection of action items from our year&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<br>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+
+<!-- Begin Hero -->
+	
+	<!-- Hero Banner-->
+	<!--[if (gte mso 9)|(IE)]><table bgcolor="#1E55EB" align="center" border="0" cellspacing="0" cellpadding="0" width="100%"><![endif]-->
+	<table bgcolor="#1E55EB" align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+		<tr>
+			<td>
+				
+				<!-- Hero Banner Content -->
+				<!--[if (gte mso 9)|(IE)]><table class="wrapto600px" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="max-width:600px"><![endif]-->
+				<table class="wrapto600px" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="max-width:600px">
+					
+					<!-- Header -->
+					<tr>
+						<td class="paddinglr20"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapto600px" style="max-width:600px;">
+                          <tr>
+              <td height="40" width="100%" colspan="2" class="h20">
+              </td>
+              </tr>
+              <tr>
+               <td width="50%" style="-webkit-font-smoothing: antialiased; font-family: 'raleway-regular', Helvetica, Arial, sans-serif; font-size:18px; color:#ffffff;"><a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=4G~amp;p=~amp;z=tE0A0Ct88F2EFD0AEA325CDE3F267BE8E3F6FDC4A189AEA5861CA648FEE7D1D1C27412FF" target="_blank" style="color:#ffffff;"><img style="display:block;max-width:104px;max-height:40px;" border="0" src="http://prezi.hosted.strongview.com/img/global/logo_prezi_2x_white.png" width="104" height="40" alt="Prezi" /></a></td>
+                 <td width="50%" align="right" valign="middle"><table border="0" cellspacing="0" cellpadding="0" align="right" class="nomob">
+                        <tr>
+                          <td><a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=4F~amp;p=~amp;z=tE0A0Ct89C0D6095EA21620E2EE612C37199897E7500110BD3F4021DD8395B561FF0F24B"><img style="display:block; max-width:16px; max-height:16px;" border="0" src="http://prezi.hosted.strongview.com/img/global/icon_plus-sign_2x_white.png" width="16" height="16" alt="" /></a></td>
+                          <td width="10"></td>
+                          <td align="left"><a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=4E~amp;p=~amp;z=tE0A0Ct8D9026975A2341B5598E54B0C5A9828AC9B760AFAAAE5C1B460CA9591F471E53A" style="-webkit-font-smoothing: antialiased; font-family: 'raleway-regular', Helvetica, Arial, sans-serif; font-size:12px; line-height:14px; padding-top:5px; padding-bottom:5px; color:#ffffff; text-decoration:none;">Make a presentation</a></td>
+                          <td width="10"></td>
+                        </tr>
+                      </table></td>
+              </tr>
+              <tr>
+              <td height="40" width="100%" colspan="2" class="h20">
+              </td>
+              </tr>
+            </table></td>
+					</tr>
+					
+					<!-- Headline -->
+					<tr>
+						<td class="paddinglr20" align="center">
+							<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=X~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kguBEB72EBE88B28B42048E01CBC39757DF859828F4AC0E8F22D371DE9A6095DA41" target="_blank">
+								<img src="http://www.preziteams.com/l/51912/2020-01-08/ct5zvg/51912/247947/Confetti_top.png" class="wrapto100pc" alt="confetti" border="0" width="598" height="131" style="display:block; max-width:598px !important; max-height:131px !important"/>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="paddinglr20" width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:42px; line-height:48px; font-weight:bold; color:#FFFFFF; text-align:center; padding-top:14px; padding-bottom:14px">Thank you for another wonderful year</td>
+					</tr>
+					<tr>
+						<td class="paddinglr20" align="center">
+							<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=Y~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kgu9DDE423A48A4989572788FB902478081678AECD1C6A0E82ED8247036085369B2" target="_blank">
+								<img src="http://www.preziteams.com/l/51912/2020-01-08/ct5zvd/51912/247945/Confetti_bottom.png" class="wrapto100pc" alt="confetti" border="0" width="598" height="131" style="display:block; max-width:598px !important; padding-bottom:48px; max-height:131px !important"/>
+							</a>
+						</td>
+					</tr>					
+					<!-- Hero Top Image -->					
+				</table>
+				<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+			</td>
+		</tr>
+	</table>
+	<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+	
+	<!-- Hero Bottom Image -->
+	<!--[if (gte mso 9)|(IE)]><table class="wrapto600px" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="max-width:600px"><![endif]-->
+	<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+	
+<!-- End Hero -->
+	
+<!-- Begin Email Content -->
+	
+	<!-- Copy -->
+	<!--[if (gte mso 9)|(IE)]><table class="wrapto600px" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="max-width:600px; padding-top:40px; padding-bottom:48px"><![endif]-->
+	<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+	
+	<!-- Large CTA Button -->
+	<!--[if (gte mso 9)|(IE)]><table class="wrapto600px" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="max-width:600px; padding-bottom:56px"><![endif]-->
+	<table class="wrapto600px" align="center" cellspacing="24" cellpadding="0" width="600" style="webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; max-width:600px">
+					<tr>
+						<td class="paddinglr20" width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:24px; line-height:30px; font-weight:normal; text-align:center; padding-bottom:36px; padding-top:36px">2019 was a huge year for us at Prezi and we couldn’t have done it without you, gyula.<span style="font-size:16px; line-height:24px; font-weight:normal;"><br><br>We’ve gathered only a few of the big highlights from the year below because cramming everything into just one email would be impossible.</span></td>
+					</tr>
+		<tr>
+						<td align="center" valign="middle" style="text-align:center; vertical-align:middle; font-size:0; padding-bottom:36px; border-style:none">
+							<div class="flip">
+
+								<!-- Top/Left -->
+								<div class="blocktop" style="display:inline-block; vertical-align:middle">
+									<!--[if (gte mso 9)|(IE)]><table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="168" style="padding-top:12px; padding-bottom:12px"><![endif]-->
+									<table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="288" style="padding-top:12px; padding-bottom:12px">
+										<tr>
+											<td align="center" valign="middle">
+												<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=Z~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kguDF6DE463906C59287535044F8FD0A5A59592DFFC956130F42A44E56E48DD654B" target="_blank">
+													<img src="http://www.preziteams.com/l/51912/2020-01-08/ct5zvj/51912/247949/Recap_sm1_img.png" class="wrapto100pc; fade-slow" alt="images and backgrounds" border="0" width="288" height="246" style="display:block; max-width:288px !important; max-height:246px !important"/>
+												</a>
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+								</div>
+
+								<!-- Right/Bottom -->
+								<div class="blockbottom" style="display:inline-block; vertical-align:middle">
+									<!--[if (gte mso 9)|(IE)]><table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="360" style="padding-left:12px; padding-right:12px"><![endif]-->
+									<table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="263" style="padding-left:18px">
+										<tr>
+											<td align="center" valign="middle" width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:normal; color:#374050; text-align:left">
+												<p style="font-size:24px; line-height:24px; font-weight:normal">A whole vault of assets</p>
+												<p>We’ve tripled the number of usable backgrounds, images, topics, and more.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<!--[if (gte mso 9)|(IE)]><table align="left" border="0" cellspacing="0" cellpadding="0"><![endif]-->
+												<table align="left" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td bgcolor="#3181FF" align="center" valign="middle" class="fade-slow" style="-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border-style:none">
+															<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=a~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kguD275AD569A7C01B646D3F7FEF2A94BB07CBE277A22F59A786818B72155E0B91B" target="_blank" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:16px; font-weight:bold; color:#FFFFFF; text-align:center; text-decoration:none; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border-style:none; padding: 8px 40px; border: 1px solid #3181FF; display:inline-block">Check them out</a>
+														</td>
+													</tr>
+												</table>
+												<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+								</div>
+
+							</div>
+
+						</td>
+					</tr>
+				</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapto600px" style="max-width:600px; padding-bottom:0px" width="600">
+	<tbody>
+		<tr>
+			<td align="center" class="paddinglr20" valign="middle"><img alt="" border="0" class="wrapto100pc" height="6" src="http://www.preziteams.com/l/51912/2019-07-04/c2f3rx/51912/234801/july_react_squiggly_line.png" style="display:block; max-width:192px !important; max-height:6px !important" width="192" /></td>
+		</tr>
+	</tbody>
+</table>
+	<table class="wrapto600px" align="center" cellspacing="24" cellpadding="0" width="600" style="webkit-border-radius:4px; padding-top:12px; -moz-border-radius:4px; border-radius:4px; max-width:600px">
+					<tr>
+						<td align="center" valign="middle" style="text-align:center; vertical-align:middle; font-size:0; padding-bottom:36px; border-style:none">
+							<div class="flip">
+
+								<!-- Top/Left -->
+								
+
+								<!-- Right/Bottom -->
+								<div class="blockbottom" style="display:inline-block; vertical-align:middle">
+									<!--[if (gte mso 9)|(IE)]><table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="360" style="padding-left:12px; padding-right:12px"><![endif]-->
+									<table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="263" style="padding-right:32px">
+										<tr>
+											<td align="center" valign="middle" width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:normal; color:#374050; text-align:left">
+												<p style="font-size:24px; line-height:24px; font-weight:normal">Research, reuse, repeat</p>
+												<p>Our virtual bookshelf of templates and reusable presentations has become a grand library, with tailored resources for every situation.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<!--[if (gte mso 9)|(IE)]><table align="left" border="0" cellspacing="0" cellpadding="0"><![endif]-->
+												<table align="left" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td bgcolor="#3181FF" align="center" valign="middle" class="fade-slow" style="-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border-style:none">
+															<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=b~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kgu49AB3D4F4023224E094DA4FB000E90E7A350D08D98EE0AD6EFA9AE92D436EE2D" target="_blank" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:16px; font-weight:bold; color:#FFFFFF; text-align:center; text-decoration:none; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border-style:none; padding: 8px 40px; border: 1px solid #3181FF; display:inline-block">Make a copy</a>
+														</td>
+													</tr>
+												</table>
+												<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+								</div>
+<div class="blocktop" style="display:inline-block; vertical-align:middle">
+									<!--[if (gte mso 9)|(IE)]><table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="168" style="padding-top:12px; padding-bottom:12px"><![endif]-->
+									<table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="288" style="padding-top:12px; padding-bottom:12px">
+										<tr>
+											<td align="center" valign="middle">
+												<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=c~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kgu39EE81E18060598EB2CFCD9F8D6B7A305E172A359453CC7D431011B161352C31" target="_blank">
+													<img src="http://www.preziteams.com/l/51912/2019-12-13/crsvb2/51912/246575/Recap_img2_Copy.png" class="wrapto100pc; fade-slow" alt="presentation templates" border="0" width="288" height="255" style="display:block; max-width:288px !important; max-height:255px !important"/>
+												</a>
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+								</div>
+							</div>
+
+						</td>
+					</tr>
+				</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapto600px" style="max-width:600px; padding-bottom:0px" width="600">
+	<tbody>
+		<tr>
+			<td align="center" class="paddinglr20" valign="middle"><img alt="" border="0" class="wrapto100pc" height="6" src="http://www.preziteams.com/l/51912/2019-07-04/c2f3rx/51912/234801/july_react_squiggly_line.png" style="display:block; max-width:192px !important; max-height:6px !important" width="192" /></td>
+		</tr>
+	</tbody>
+</table>
+	<table class="wrapto600px" align="center" cellspacing="24" cellpadding="0" width="600" style="webkit-border-radius:4px; padding-top:12px; -moz-border-radius:4px; border-radius:4px; max-width:600px">
+					<tr>
+						<td align="center" valign="middle" style="text-align:center; vertical-align:middle; font-size:0; padding-bottom:36px; border-style:none">
+							<div class="flip">
+
+								<!-- Top/Left -->
+								<div class="blocktop" style="display:inline-block; vertical-align:middle">
+									<!--[if (gte mso 9)|(IE)]><table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="168" style="padding-top:12px; padding-bottom:12px"><![endif]-->
+									<table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="288" style="padding-top:12px; padding-bottom:12px">
+										<tr>
+											<td align="center" valign="middle">
+												<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=d~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kguAE7B69805788DB4CDE068D69CC05E61359095F57B2468C0D8F21DAFABFE1B632" target="_blank">
+													<img src="http://www.preziteams.com/l/51912/2019-12-13/crsvb4/51912/246577/Recap_img3_Copy.png" class="wrapto100pc; fade-slow" alt="Prezi Awards" border="0" width="288" height="290" style="display:block; max-width:288px !important; max-height:290px !important"/>
+												</a>
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+								</div>
+
+								<!-- Right/Bottom -->
+								<div class="blockbottom" style="display:inline-block; vertical-align:middle">
+									<!--[if (gte mso 9)|(IE)]><table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="360" style="padding-left:12px; padding-right:12px"><![endif]-->
+									<table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="263" style="padding-left:32px">
+										<tr>
+											<td align="center" valign="middle" width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:normal; color:#374050; text-align:left">
+												<p style="font-size:24px; line-height:24px; font-weight:normal">Employee of the month</p>
+												<p>Prezi Awards are back, and it isn’t too late to submit your video or presentation masterpiece.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<!--[if (gte mso 9)|(IE)]><table align="left" border="0" cellspacing="0" cellpadding="0"><![endif]-->
+												<table align="left" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td bgcolor="#3181FF" align="center" valign="middle" class="fade-slow" style="-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border-style:none">
+															<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=e~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kguCF56A169BCAAE72FE61158475E66350963070212228D2784086E0F41EF0E5096" target="_blank" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:16px; font-weight:bold; color:#FFFFFF; text-align:center; text-decoration:none; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border-style:none; padding: 8px 40px; border: 1px solid #3181FF; display:inline-block">Submit here</a>
+														</td>
+													</tr>
+												</table>
+												<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+								</div>
+
+							</div>
+
+						</td>
+					</tr>
+				</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapto600px" style="max-width:600px; padding-bottom:0px" width="600">
+	<tbody>
+		<tr>
+			<td align="center" class="paddinglr20" valign="middle"><img alt="" border="0" class="wrapto100pc" height="6" src="http://www.preziteams.com/l/51912/2019-07-04/c2f3rx/51912/234801/july_react_squiggly_line.png" style="display:block; max-width:192px !important; max-height:6px !important" width="192" /></td>
+		</tr>
+	</tbody>
+</table>
+	<table class="wrapto600px" align="center" cellspacing="24" cellpadding="0" width="600" style="webkit-border-radius:4px; padding-top:12px; -moz-border-radius:4px; border-radius:4px; max-width:600px">
+					<tr>
+						<td align="center" valign="middle" style="text-align:center; vertical-align:middle; font-size:0; padding-bottom:36px; border-style:none">
+							<div class="flip">
+
+								<!-- Top/Left -->
+								
+
+								<!-- Right/Bottom -->
+								<div class="blockbottom" style="display:inline-block; vertical-align:middle">
+									<!--[if (gte mso 9)|(IE)]><table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="360" style="padding-left:12px; padding-right:12px"><![endif]-->
+									<table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="263" style="padding-right:4px">
+										<tr>
+											<td align="center" valign="middle" width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:normal; color:#374050; text-align:left">
+												<p style="font-size:24px; line-height:24px; font-weight:normal">A new way to work</p>
+												<p>We released Prezi Video in November and have been blown away by the thousands of informative videos made by all of you.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<!--[if (gte mso 9)|(IE)]><table align="left" border="0" cellspacing="0" cellpadding="0"><![endif]-->
+												<table align="left" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td bgcolor="#3181FF" align="center" valign="middle" class="fade-slow" style="-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border-style:none">
+															<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=f~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kgu05815237031E5356E5E11C3C89263BB9BC3F44BBD88CE10F9ECCC10958A24B1C" target="_blank" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:16px; font-weight:bold; color:#FFFFFF; text-align:center; text-decoration:none; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border-style:none; padding: 8px 40px; border: 1px solid #3181FF; display:inline-block">Hit play</a>
+														</td>
+													</tr>
+												</table>
+												<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+								</div>
+<div class="blocktop" style="display:inline-block; vertical-align:middle">
+									<!--[if (gte mso 9)|(IE)]><table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="168" style="padding-top:12px; padding-bottom:12px"><![endif]-->
+									<table class="wrapto100pc" align="center" border="0" cellspacing="0" cellpadding="0" width="288" style="padding-top:12px; padding-bottom:12px">
+										<tr>
+											<td align="center" valign="middle">
+												<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=g~amp;5=~amp;j=9yGuGw9s~amp;oq2di.fmemlp0D~25w8YuSqd.kguEFC3C627E1452D951471BCBE6C0A68F69474ED797C22E7C8236CA08F20C88B89" target="_blank">
+													<img src="http://www.preziteams.com/l/51912/2020-01-08/ct5zvl/51912/247951/Recap_sm2_img.png" class="wrapto100pc; fade-slow" alt="Prezi Video" border="0" width="288" height="262" style="display:block; max-width:288px !important; max-height:262px !important"/>
+												</a>
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+								</div>
+							</div>
+
+						</td>
+					</tr>
+				</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapto600px" style="max-width:600px; padding-bottom:0px" width="600">
+	<tbody>
+		<tr>
+			<td align="center" class="paddinglr20" valign="middle"><img alt="" border="0" class="wrapto100pc" height="6" src="http://www.preziteams.com/l/51912/2019-07-04/c2f3rx/51912/234801/july_react_squiggly_line.png" style="display:block; max-width:192px !important; max-height:6px !important" width="192" /></td>
+		</tr>
+	</tbody>
+</table>
+	<table class="wrapto600px" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="max-width:600px; padding-top:52px; padding-bottom:48px">
+		<tr>
+						<td class="paddinglr20" width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:24px; line-height:30px; font-weight:normal; color:#374050; text-align:center; padding-bottom:16px">Thank you so much for sticking with us this year — we’re only getting started.</td>
+					</tr>
+		<tr>
+			<td class="paddinglr20" width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:normal; color:#374050; text-align:center">
+				2020 is going to be a big one, and we can’t wait to see what everyone creates with all of the new and exciting tools coming.
+			</td>
+		</tr>
+	</table>
+	
+	<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+	
+	<!-- Icon -->
+	<!--[if (gte mso 9)|(IE)]><table class="wrapto600px" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="max-width:600px"><![endif]-->
+	<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+	
+	<!-- Disclaimer Copy -->
+	<!--[if (gte mso 9)|(IE)]><table class="wrapto600px" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="max-width:600px; padding-bottom:80px"><![endif]-->
+	
+	<!--[if (gte mso 9)|(IE)]></table><![endif]-->
+	
+<!-- End Email Content -->
+
+	<!-- Footer -->	
+	<div><table bgcolor="#ECEDEF" border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td align="center" style="padding-top:40px; padding-bottom:60px; padding-left:24px; padding-right:24px">
+			<table class="wrapto600px" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="max-width:600px; padding-bottom:30px">
+				<tr>
+					<td align="center">
+						<table class="wrapto100pc" align="center" border="0" cellpadding="0" cellspacing="0" width="476" style="padding-bottom:10px">
+							<tr>
+								<td align="center">
+									<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=30~amp;p=~amp;z=Z1lx~25vI~25uN~25uNTtgo.hzW7a.kgu~25uN~amp;tE0A0Ct8~amp;E0D940ECD088BC96C023B50B84735104D9C9BCA058ECB13D3CACB702345359BC" target="_blank">
+										<img src="http://prezi.hosted.strongview.com/img/global/icon_blog_2x.png" alt="Blog" width="42" height="42" style="display:block; max-width:42px !important; max-height:42px !important;" border="0">
+									</a>
+								</td>
+								<td width="24"></td>
+								<td align="center">
+									<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=3z~amp;p=~amp;z=Z1lxk~25B2~25A7~25A74o4.XiUmTwgs.Uwe~25A7xjmrqUwe~amp;9yGuGw9s~amp;CE76A1DE5286D9037F93D1C2F248339779C1388DD9426AA8A4E5786287365007" target="_blank">
+										<img src="http://prezi.hosted.strongview.com/img/global/icon_facebook_2x.png" alt="Facebook" width="42" height="42" style="display:block; max-width:42px !important; max-height:42px !important;" border="0">
+									</a>
+								</td>
+								<td width="24"></td>
+								<td align="center">
+									<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=3y~amp;p=~amp;z=Z1lxk~25B2~25A7~25A74o4.dqfsWlav.Uwe~25A7kguhif6~25uNhzW7a~amp;9yGuGw9s~amp;DD98B3996028630742A3531BEC5BFFF0C3210A47F12C79280E37D2B57D3BC5E4" target="_blank">
+										<img src="http://prezi.hosted.strongview.com/img/global/icon_linkedin_2x.png" alt="LinkedIn" width="42" height="42" style="display:block; max-width:42px !important; max-height:42px !important;" border="0">
+									</a>
+								</td>
+								<td width="24"></td>
+								<td align="center">
+									<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=3x~amp;p=~amp;z=Z1lxk~25B2~25A7~25A74o4.l4a1lmj.kgu~25uNhzW7a~amp;9yGuGw9s~amp;9374B7B639BC073DEF04086FAECF8EB35E014C198B20B4989EB00987615464F3" target="_blank">
+										<img src="http://prezi.hosted.strongview.com/img/global/icon_twitter_2x.png" alt="Twitter" width="42" height="42" style="display:block; max-width:42px !important; max-height:42px !important;" border="0">
+									</a>
+								</td>
+								<td width="24"></td>
+								<td align="center">
+									<a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=3w~amp;p=~amp;z=Z1lxk~25B2~25A7~25A74o4.avk1Sojie.kgu~25uNhzW7akgu~25uN~amp;tE0A0Ct8~amp;AB6F3E06ED3843A2CE14C3359F7ABE65922081A88C479CD7DFD578F4F3BA1832" target="_blank">
+										<img src="http://www.preziteams.com/l/51912/2019-06-05/byh92z/51912/232287/instagram.png" alt="Instagram" width="42" height="42" style="display:block; max-width:42px !important; max-height:42px !important;" border="0">
+									</a>
+								</td>
+							</tr>
+						</table>
+						<table class="nomob" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>
+									<table class="wrapto100pc" align="center" border="0" cellpadding="0" cellspacing="0" width="476">
+										<tr>
+											<td align="center" width="76" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:13px; line-height:16px; font-weight:normal; color:#475262; text-align:center">Prezi Blog</td>
+											<td width="24"></td>
+											<td align="center" width="76" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:13px; line-height:16px; font-weight:normal; color:#475262; text-align:center">Facebook</td>
+											<td width="24"></td>
+											<td align="center" width="76" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:13px; line-height:16px; font-weight:normal; color:#475262; text-align:center">LinkedIn</td>
+											<td width="24"></td>
+											<td align="center" width="76" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:13px; line-height:16px; font-weight:normal; color:#475262; text-align:center">Twitter</td>
+											<td width="24"></td>
+											<td align="center" width="76" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:13px; line-height:16px; font-weight:normal; color:#475262; text-align:center">Instagram</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table class="wrapto600px" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="max-width:600px">
+				<tr>
+					<td width="100%" style="-webkit-font-smoothing:antialiased; font-family:'raleway-regular', Helvetica, Arial, sans-serif; font-size:10px; line-height:14px; font-weight:normal; color:#475262; text-align:center">
+						&copy;2020 Prezi
+						<br/>
+						450 Bryant Street
+						<br/>
+						San Francisco, CA, 94107, USA
+						<br/>
+						<br/>
+						<a style="color:#475262; text-decoration:none" href="https://click.prezi.com/t/jdH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=3~7E~amp;5=8868C336E284415C0E74074DE26A939D1C9BCFA82DBC5522D6ED41BAA582A811" target="_blank">Unsubscribe</a>
+						<br/>
+						privacy@prezi.com
+						<br/><br /><br /><br /><a href="https://click.prezi.com/t/jcH1AAibaFD2rQBR4~B0pDDua0UbBSJTYpaaaaJJL7BPBPHHgaa?l=9_uGuG1~amp;l=Y6mtS.vWuW1ZGx~25Csoeiat.Uwe~amp;t=3v~amp;p=~amp;z=tE0A0Ct8~amp;F2B2B88437404E353580F611020BD740C62DC7D92E8423F33ED44566736CBC9E" target="_blank"></a><br />
+						<span style="color:#ECEDEF">2019-12-Prezi_Recap_Business-split-1</span>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table></div>
+	
+	</body>
+	
+</html>
