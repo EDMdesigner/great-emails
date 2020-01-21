@@ -10,3 +10,5 @@ My favorite part is the image in the end that display what kind of tools from gr
 This is tricky since it's an image, so they had to automatically choose the image that applies to me based on my data in DB.
 
 There are some great ideas in this email that could help maintain retention for new users ;)
+
+https://edmdesigner.github.io/great-emails/grammarly/someones-earned-bragging-rights
