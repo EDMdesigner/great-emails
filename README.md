@@ -1,6 +1,6 @@
 # great-emails
 
-We started this repository at [chamaileon.io](https://chamaileon.io?utm_source=github-greatemails) because we wanted to collect emails we like. It's mostly about motivation, be it a nice code, design or a cool/surprising solutionon for something.
+We started this repository at [chamaileon.io](https://chamaileon.io?utm_source=github&utm_medium=readme_md&utm_campaign=great_emails_github_repo) because we wanted to collect emails we like. It's mostly about motivation, be it a nice code, design or a cool/surprising solutionon for something.
 
 We decided to publish this repo, because sharing is caring. You can also add your favorite emails here!
 
