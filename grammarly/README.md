@@ -11,4 +11,4 @@ This is tricky since it's an image, so they had to automatically choose the imag
 
 There are some great ideas in this email that could help maintain retention for new users ;)
 
-https://edmdesigner.github.io/great-emails/grammarly
+https://edmdesigner.github.io/great-emails/grammarly/someones-earned-bragging-rights
