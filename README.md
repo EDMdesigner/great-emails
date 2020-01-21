@@ -10,14 +10,12 @@ The contents of this repository is published at https://edmdesigner.github.io/gr
  - Fork this repository
  - Add your email HTML code that you like:
    - use the following folder structure:
-     - folder name: the sender's brand name in lowercase. If there is a space in the original name, replace it with a dash (-).
+     - folder name: <the sender's brand name in lowercase> / <subject-line in lowercase>. If there is a space in the original brand name or subjectline, replace it with a dash (-).
 	 - index.html
 	   - Check the encoding and use an encoder if it's necessary
 	   - Remove the tracking pixels or any other codes for analytics
 	   - Remove any sensitive personal information (your name, username if it's a personalised email etc.)
 	 - README.md that includes the following info:
 	   - A short description, why that email cought your attention
-	   - The original subject line
-	   - The date when you recieved that email
 	   - Include the Github Pages link, so if someone is browsing this repo, they can easily preview the email itself.
  - Open a pull request
